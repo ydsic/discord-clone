@@ -11,7 +11,6 @@ import ProfileBar from "../src/compoenets/profile-bar/ProfileBar";
 const MainDiv = styled.div`
   background-color: var(--main-bg-color);
   height: 100vh;
-  overflow: hidden;
 `;
 
 const MainContent = styled.div`
@@ -25,7 +24,7 @@ const MainContent = styled.div`
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-top-left-radius: 20px;
   box-sizing: border-box;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 4fr 0.8fr;
 `;
 
 function App() {

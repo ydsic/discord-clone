@@ -4,11 +4,19 @@
   --channelList-bg-color: #2f3136;
   --memberList-bg-color: #2f3136;
   --message-bg-color: #36393f;
-  --message-inputbox-bg-color: #32353b;
+  --message-inputbox-bg-color: #3c3f46;
   --profilebar-bg-color: #36393f;
   --hover-bg-color: #424549;
   --active-bg-color: #7289da;
   --normal-txt-color: #99aab5;
   --hover-txt-color: #ffffff;
   --active-txt-color: #ffffff;
+}
+
+@font-face {
+  font-family: "gg sans Normal Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("gg sans Normal Regular"),
+    url("./assets/fonts/gg-sans-Regular.woff") format("woff");
 }

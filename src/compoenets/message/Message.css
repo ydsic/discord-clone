@@ -1,0 +1,76 @@
+.MainBackground {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--message-bg-color);
+  height: 95.8vh;
+}
+
+.messagesList {
+  height: 92%;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  margin: 25px 15px 25px 15px;
+}
+
+.messageData {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.time,
+.text {
+  display: inline-block;
+}
+
+.name {
+  margin: 0 8px 0 15px;
+  font-size: 17px;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 14px;
+  color: #999;
+  font-weight: 600;
+}
+
+.text {
+  margin: 0 0 0 15px;
+  font-size: 17px;
+  color: #e0e0e0;
+  line-height: 25px;
+}
+
+.profileIcon {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.inputBar {
+  position: sticky;
+  background-color: var(--message-inputbox-bg-color);
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 8px;
+}
+
+.inputBar > svg {
+  margin: 0 20px 0 15px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  background-color: var(--message-inputbox-bg-color);
+  border: none;
+  outline: none;
+  color: var(--normal-txt-color);
+}

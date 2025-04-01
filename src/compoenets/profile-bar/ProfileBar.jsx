@@ -3,7 +3,7 @@ const MainDiv = styled.div`
   position: relative;
   left: 5px;
   bottom: 7vh;
-  width: 22.5vw;
+  width: 20vw;
   height: 10vh;
   background-color: var(--profilebar-bg-color);
 `;
