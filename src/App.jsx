@@ -1,10 +1,12 @@
-import "./reset.css";
-import "./App.css";
+import React from "react";
+import ResetStyle from './styles/ResetStyle';
+import GlobalStyle from "./styles/GlobalStyles";
 import styled from "styled-components";
-import SideChannelList from "../src/compoenets/side-channel-list/SideChannelList";
-import Message from "../src/compoenets/message/Message";
-import SideMemberList from "../src/compoenets/side-member-list/SideMemberList";
-import ProfileBar from "../src/compoenets/profile-bar/ProfileBar";
+
+import SideChannelList from "./layout/SideChannelList";
+import Message from "./layout/Message";
+import SideMemberList from "./layout/SideMemberList";
+import ProfileBar from "./layout/ProfileBar";
 
 // styled-components 사용법
 // const 변수이름 = styled.태그종류 `안에 작성` < 백틱
@@ -31,6 +33,8 @@ const MainContent = styled.div`
 function App() {
   return (
     <>
+     <ResetStyle />  
+     <GlobalStyle />
       <MainDiv>
         <MainContent className="MaiNContent">
           <SideChannelList />
